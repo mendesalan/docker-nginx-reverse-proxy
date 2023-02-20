@@ -1,6 +1,10 @@
 {
   "extends": "fastify-tsconfig",
   "compilerOptions": {
+    "strict": false,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "outDir": "dist",
     "sourceMap": true
   },
