@@ -11,5 +11,5 @@ model user {
   id Int @id @default(autoincrement())
   firstName String 
   lastName String 
-  age Int
+  age String
 }
