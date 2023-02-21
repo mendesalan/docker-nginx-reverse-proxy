@@ -17,6 +17,19 @@ const users: FastifyPluginAsync = async (fastify, opts): Promise<void> => {
     return [users];
   });
 
+  fastify.get("/:userId", async function (request, reply) {
+    const { userId }: any = request.params;
+    console.log("=============================> ", userId);
+
+    const users = await fastify.prisma.user.findUnique({
+      where: {
+        id: parseInt(userId),
+      },
+    });
+
+    return [users];
+  });
+
   fastify.post(
     "/",
     {
