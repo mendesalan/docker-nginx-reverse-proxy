@@ -7,3 +7,4 @@ https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
 https://www.prisma.io/fastify#fastify-tabs
 https://github.com/prisma/prisma-examples
 https://github.com/prisma/prisma-examples/blob/latest/typescript/rest-fastify/src/index.ts
+https://backend.cafe/becoming-a-fastify-json-schema-guru
